@@ -1,0 +1,279 @@
+/*Universal Font*/
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Font attached */
+@font-face {
+    font-family: OtomanopeeOne-Regular;
+    src: url(../fonts/OtomanopeeOne-Regular.ttf);
+}
+
+h1, h2, h3, h4, h5{
+    font-family: OtomanopeeOne-Regular;
+}
+
+.uni-padding{
+    margin: 0 20%;
+}
+
+.padding-text{
+    margin: 0 8%;
+}
+
+/*Body*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and navbar  */
+
+.header-row{
+    background-color: khaki;
+}
+
+.icon{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.iconbar{
+    margin-top: 30px;
+}
+
+
+#logo-img{
+    margin-left: 60px;
+}
+
+.headline{
+    margin-left: 60px;
+}
+
+.des{
+    margin-left: 20px;
+}
+
+.nav-des{
+    margin-left: 10px;
+}
+
+/* Slider design  */
+/* .slider-des{
+    background-color: khaki;
+} */
+
+/* Footer & copyright section  */
+#footer-ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer-ul li{
+    margin-top: 10px;
+}
+
+#footer-ul li a{
+    text-decoration: none;
+}
+
+.footer-h1{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+.copyright{
+    background-color: khaki;
+    color: black;
+    font-size: large;
+}
+
+.mail-no1{
+    font-size: 18px;
+    font-weight: 100;
+    color: black;
+}
+
+.mail-no2{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Comapanies Informations  */
+.CI{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: bold; 
+}
+
+/* Profiles design  */
+.Profiles{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+}
+
+/* Login section  */
+.LogIn{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+}
+
+/* About us design  */
+.AboutUs{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+}
+
+/* contact us design  */
+.contactUs{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: bold;
+}
+
+.formbar{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../Images/form_img.jpg");
+    background-position: top center;
+}
+
+/* Company Informations  */
+.CompanyPadding{
+    margin: 0 5%;
+}
+
+.text-design{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* responsive header & navbar */
+@media only screen and (max-width: 1024px) {
+    .icon{
+        font-size: 25px;
+        margin: 2px;
+    }
+    .iconbar {
+        margin-top: 50px;
+    }
+    .des{
+        margin-left: 10px;
+    }
+    .nav-des{
+        margin-left: 0;
+    }
+    #logo-img {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .head-second {
+        margin-top: 15px;
+        margin-left: 55px;
+    }
+    .iconbar {
+        margin-top: 35px;
+    }
+    .icon{
+        font-size: 30px;
+        margin: 6px;
+    }
+    .des{
+        margin-left: 0;
+    }
+    .nav-des{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    #logo-img{
+        margin-left: 125px;
+        margin-top: 15px;
+    }
+    .head-second{
+        text-align: center;
+        margin-left: 15px;
+    }
+    .iconbar {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .headline{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+/* responsive for image slider  */
+
+@media only screen and (max-width: 768px){
+    .uni-padding{
+        margin: 0 12%;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .image{
+        height: 300px;
+    }
+    .uni-padding{
+        margin: 0 0;
+    }
+}
+
+/* responsive for footer section  */
+@media only screen and (max-width: 768px){
+    .div33{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .div33{
+        text-align: center;
+    }
+
+    .copyright{
+        font-size: 14px;
+    }
+}
+
+/* Responsive Company Informations  */
+@media only screen and (max-width: 1024px){
+    .CompanyPadding{
+        margin: 0 4% !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .CompanyPadding{
+        margin: 0 0;
+    }
+    .card{
+        width: 14rem !important;
+    }
+}
+
+@media only screen and (max-width: 468px){
+    .CompanyPadding{
+        margin: 0 4%;
+    }
+    .card {  
+        width: 18rem !important;
+    }
+}
+
+
+
